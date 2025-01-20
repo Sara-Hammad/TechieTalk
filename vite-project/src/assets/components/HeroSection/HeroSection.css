@@ -1,0 +1,33 @@
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #2C3E50; 
+  color: white;
+  margin-top: 80px;
+}
+
+.hero h1 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hero p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.accent-text {
+  color: #E74C3C;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+}
